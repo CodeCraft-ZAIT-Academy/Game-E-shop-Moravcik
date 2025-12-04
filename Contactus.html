@@ -11,30 +11,59 @@
 </head>
 
 <body>
-    <div id="header1">
-        <div id="logo"><a href="index.html"><img id="logo_i" src="Eneba-Logo2.png"></img></a></div>
-        <div id="header_language-currnecy">
-            <button class="Header_b">Europe | EU</button>
-            <button class="Header_b">Euro €</button>
+    <div id="page">
+        <a name="top"></a>
+        <div id="header1">
+            <div id="logo"><a href="index.html"><img id="logo_i" src="Eneba-Logo2.png"></img></a></div>
+            <div id="header_language-currnecy">
+                <button class="Header_b">Europe | EU</button>
+                <button class="Header_b">Euro €</button>
+            </div>
+            <div id="header_log-reg">
+                <button class="Header_b">Log in</button>
+                <button class="Header_b">Register</button>
+            </div>
         </div>
-        <div id="header_log-reg">
-            <button class="Header_b">Log in</button>
-            <button class="Header_b">Register</button>
+
+
+        <div id="main">
+            <div id="main-left">
+                <h1>left thingy</h1>
+                
+            </div>
+            <div id="main-right-about">
+                <form action="/submit" method="post">
+                    <label for="topic">Choose a topic:</label>
+                    <select id="topic" name="topic">
+                      <option value="feedback">Key did not arrvie</option>
+                      <option value="bug">Requesting a refund</option>
+                      <option value="question">Generall question</option>
+                    </select>
+                  
+                    <label for="message">Your message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                  
+                    <button type="submit"><a href="Contactus.html"></a>Submit</button>
+                  </form>
+
+            </div>
+                
+                    
+
+        <div id="footer">
+            <div>
+                <ul class="footer-links">
+                    <li id="list-footer"><a class="info-links" href="Aboutus.html">About us</a></li>
+                    <li id="list-footer"><a class="info-links" href="Contactus.html">Contact us | Support</a></li>
+                    <li id="list-footer"><a class="info-links" href="https://www.ign.com/">Gaming news</a></li>
+                </ul>
+
+            </div>
+            <a class="info-links" href="#top">Back To Top</a>
         </div>
+
     </div>
 
-
-    <div id="footer">
-        <div>
-            <ul class="footer-links">
-                <li id="list-footer"><a class="info-links" href="Aboutus.html">About us</a></li>
-                <li id="list-footer"><a class="info-links" href="Contactus.html">Contact us | Support</a></li>
-                <li id="list-footer"><a class="info-links" href="https://www.ign.com/">Gaming news</a></li>
-            </ul>
-
-        </div>
-        <a href="#top">Back To Top</a>
-    </div>
 </body>
 
 </html>
